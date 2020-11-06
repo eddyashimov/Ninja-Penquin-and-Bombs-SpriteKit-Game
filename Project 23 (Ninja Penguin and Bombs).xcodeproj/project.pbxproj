@@ -9,25 +9,45 @@
 /* Begin PBXBuildFile section */
 		FDF01C062467218100A41C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF01C052467218100A41C17 /* AppDelegate.swift */; };
 		FDF01C082467218100A41C17 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C072467218100A41C17 /* GameScene.sks */; };
-		FDF01C0A2467218100A41C17 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C092467218100A41C17 /* Actions.sks */; };
 		FDF01C0C2467218100A41C17 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF01C0B2467218100A41C17 /* GameScene.swift */; };
 		FDF01C0E2467218100A41C17 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF01C0D2467218100A41C17 /* GameViewController.swift */; };
 		FDF01C112467218100A41C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C0F2467218100A41C17 /* Main.storyboard */; };
 		FDF01C132467218300A41C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C122467218300A41C17 /* Assets.xcassets */; };
 		FDF01C162467218300A41C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C142467218300A41C17 /* LaunchScreen.storyboard */; };
+		FDF01C28246722D000A41C17 /* launch.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C1D246722CF00A41C17 /* launch.caf */; };
+		FDF01C29246722D000A41C17 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C1E246722CF00A41C17 /* whack.caf */; };
+		FDF01C2A246722D000A41C17 /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C1F246722CF00A41C17 /* explosion.caf */; };
+		FDF01C2B246722D000A41C17 /* sliceHitBomb.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C20246722CF00A41C17 /* sliceHitBomb.sks */; };
+		FDF01C2C246722D000A41C17 /* sliceBombFuse.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C21246722D000A41C17 /* sliceBombFuse.caf */; };
+		FDF01C2D246722D000A41C17 /* sliceHitEnemy.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C22246722D000A41C17 /* sliceHitEnemy.sks */; };
+		FDF01C2E246722D000A41C17 /* sliceFuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C23246722D000A41C17 /* sliceFuse.sks */; };
+		FDF01C2F246722D000A41C17 /* wrong.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C24246722D000A41C17 /* wrong.caf */; };
+		FDF01C30246722D000A41C17 /* swoosh3.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C25246722D000A41C17 /* swoosh3.caf */; };
+		FDF01C31246722D000A41C17 /* swoosh2.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C26246722D000A41C17 /* swoosh2.caf */; };
+		FDF01C32246722D000A41C17 /* swoosh1.caf in Resources */ = {isa = PBXBuildFile; fileRef = FDF01C27246722D000A41C17 /* swoosh1.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDF01C022467218100A41C17 /* Project 23 (Ninja Penguin and Bombs).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 23 (Ninja Penguin and Bombs).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF01C052467218100A41C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF01C072467218100A41C17 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FDF01C092467218100A41C17 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FDF01C0B2467218100A41C17 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FDF01C0D2467218100A41C17 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FDF01C102467218100A41C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDF01C122467218300A41C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF01C152467218300A41C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF01C172467218300A41C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF01C1D246722CF00A41C17 /* launch.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = launch.caf; sourceTree = "<group>"; };
+		FDF01C1E246722CF00A41C17 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		FDF01C1F246722CF00A41C17 /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
+		FDF01C20246722CF00A41C17 /* sliceHitBomb.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitBomb.sks; sourceTree = "<group>"; };
+		FDF01C21246722D000A41C17 /* sliceBombFuse.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sliceBombFuse.caf; sourceTree = "<group>"; };
+		FDF01C22246722D000A41C17 /* sliceHitEnemy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitEnemy.sks; sourceTree = "<group>"; };
+		FDF01C23246722D000A41C17 /* sliceFuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceFuse.sks; sourceTree = "<group>"; };
+		FDF01C24246722D000A41C17 /* wrong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.caf; sourceTree = "<group>"; };
+		FDF01C25246722D000A41C17 /* swoosh3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh3.caf; sourceTree = "<group>"; };
+		FDF01C26246722D000A41C17 /* swoosh2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.caf; sourceTree = "<group>"; };
+		FDF01C27246722D000A41C17 /* swoosh1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh1.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +82,23 @@
 			children = (
 				FDF01C052467218100A41C17 /* AppDelegate.swift */,
 				FDF01C072467218100A41C17 /* GameScene.sks */,
-				FDF01C092467218100A41C17 /* Actions.sks */,
 				FDF01C0B2467218100A41C17 /* GameScene.swift */,
 				FDF01C0D2467218100A41C17 /* GameViewController.swift */,
 				FDF01C0F2467218100A41C17 /* Main.storyboard */,
 				FDF01C122467218300A41C17 /* Assets.xcassets */,
 				FDF01C142467218300A41C17 /* LaunchScreen.storyboard */,
 				FDF01C172467218300A41C17 /* Info.plist */,
+				FDF01C1F246722CF00A41C17 /* explosion.caf */,
+				FDF01C1D246722CF00A41C17 /* launch.caf */,
+				FDF01C21246722D000A41C17 /* sliceBombFuse.caf */,
+				FDF01C23246722D000A41C17 /* sliceFuse.sks */,
+				FDF01C20246722CF00A41C17 /* sliceHitBomb.sks */,
+				FDF01C22246722D000A41C17 /* sliceHitEnemy.sks */,
+				FDF01C27246722D000A41C17 /* swoosh1.caf */,
+				FDF01C26246722D000A41C17 /* swoosh2.caf */,
+				FDF01C25246722D000A41C17 /* swoosh3.caf */,
+				FDF01C1E246722CF00A41C17 /* whack.caf */,
+				FDF01C24246722D000A41C17 /* wrong.caf */,
 			);
 			path = "Project 23 (Ninja Penguin and Bombs)";
 			sourceTree = "<group>";
@@ -132,10 +162,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF01C112467218100A41C17 /* Main.storyboard in Resources */,
+				FDF01C2A246722D000A41C17 /* explosion.caf in Resources */,
+				FDF01C28246722D000A41C17 /* launch.caf in Resources */,
+				FDF01C2C246722D000A41C17 /* sliceBombFuse.caf in Resources */,
 				FDF01C082467218100A41C17 /* GameScene.sks in Resources */,
+				FDF01C2B246722D000A41C17 /* sliceHitBomb.sks in Resources */,
 				FDF01C132467218300A41C17 /* Assets.xcassets in Resources */,
+				FDF01C2E246722D000A41C17 /* sliceFuse.sks in Resources */,
+				FDF01C2D246722D000A41C17 /* sliceHitEnemy.sks in Resources */,
 				FDF01C162467218300A41C17 /* LaunchScreen.storyboard in Resources */,
-				FDF01C0A2467218100A41C17 /* Actions.sks in Resources */,
+				FDF01C31246722D000A41C17 /* swoosh2.caf in Resources */,
+				FDF01C32246722D000A41C17 /* swoosh1.caf in Resources */,
+				FDF01C30246722D000A41C17 /* swoosh3.caf in Resources */,
+				FDF01C2F246722D000A41C17 /* wrong.caf in Resources */,
+				FDF01C29246722D000A41C17 /* whack.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX84G6PTJX;
 				INFOPLIST_FILE = "Project 23 (Ninja Penguin and Bombs)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX84G6PTJX;
 				INFOPLIST_FILE = "Project 23 (Ninja Penguin and Bombs)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
